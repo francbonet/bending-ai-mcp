@@ -1,0 +1,18 @@
+{
+  "name": "bending-ai-mcp",
+  "version": "0.1.0",
+  "description": "Local stdio MCP server for the public BendingAI API used by bending.ai.",
+  "type": "module",
+  "bin": {
+    "bending-ai-mcp": "./server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "inspect": "node server.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
