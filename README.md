@@ -26,6 +26,17 @@ Example MCP config:
 }
 ```
 
+Example Codex config in `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.bending-ai]
+command = "node"
+args = ["/Users/francesc/Dev/bending-ai-mcp/server.js"]
+
+[mcp_servers.bending-ai.env]
+BENDING_API_BASE = "https://api.bending.ai"
+```
+
 Mutation endpoints such as follow/unfollow and bundle edits are exposed but disabled by default. Enable them explicitly:
 
 ```json
